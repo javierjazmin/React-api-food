@@ -1,0 +1,30 @@
+.card{
+    background-color:beige;
+    height: 480px;
+    width: 360px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    color: black;
+    
+}
+
+.card:hover{
+    box-shadow: 6px 6px 3px rgb(45, 43, 43);
+
+}
+
+.image{
+    border-radius: 10px;
+    height: 231px;
+    width: 312px
+}
+
+.p{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}

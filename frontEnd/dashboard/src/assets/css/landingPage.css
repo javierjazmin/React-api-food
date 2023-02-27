@@ -1,0 +1,43 @@
+.landing {
+    background-image: url("../images/ORFF0J0.jpg");
+    background-size: 100% 100%;
+    height: 700px;
+    width: 1420px;
+    margin:2rem;
+    border:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.texto{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 50px;
+    border-radius: 5px;
+    padding: 20px;
+ 
+}
+.landing .texto h1{
+    font-size: 60px;
+    color:black;
+    opacity:1;
+    z-index: 2;
+
+}
+
+.boton{
+    border-radius: 8px;
+    font-size: 30px;
+}
+
+.boton:hover{
+    background-color: black;
+    color: white;
+
+}

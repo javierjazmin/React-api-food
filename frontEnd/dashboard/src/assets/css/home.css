@@ -1,0 +1,26 @@
+.recipes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+  }
+
+.recipes::after {
+    content: "";
+    background-image: url("../images/fondo1.jpg");
+    background-size: 100% 100%;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;   
+  }
+
+  
+
+.paginadotop{
+  margin-top: 50px;
+}

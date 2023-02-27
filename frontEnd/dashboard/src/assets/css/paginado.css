@@ -1,0 +1,35 @@
+.paginado{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+
+.numeros{
+    margin:0.5px;
+    border:0px;
+    padding: 0px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numeros:hover{
+    transform: scale(1.1);
+    background-color: rgb(13, 250, 13);
+}
+.numeros:disabled{
+    background-color: rgb(13, 250, 13);
+    color: black
+}
+
+/*.flechas{
+
+}*/
+
+.flechas:hover{
+    transform: scale(1.1);
+    background-color: rgb(13, 250, 13);
+}

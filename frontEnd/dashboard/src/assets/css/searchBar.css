@@ -1,0 +1,68 @@
+.h1{
+    font-size: 60px;
+    color:beige;
+    text-shadow: -3px -3px 3px #a19961, 3px -3px 3px #3a1c1f, -3px 3px 3px #784f32, 3px 3px 3px #784f32;
+}
+.search{
+    margin:3px;
+    border-radius: 5px;
+    width:300px;
+    height: 30px;
+}
+
+.btnsearch{
+    margin:3px;
+    border-radius: 15px;
+    width:100px;
+    height: 36px;
+    background-color: beige;
+}
+.btnsearch:hover{
+    background-color:rgb(13, 250, 13);
+    transform: scale(1.1);
+}
+
+.filter{
+    margin: 3px;
+    height: 25px;
+    width: 170px;
+    border-radius: 10px;
+    
+}
+
+.btnreset{
+    margin:3px;
+    border-radius: 10px;
+    width:100px;
+    height: 25px;
+    background-color: beige;
+}
+.btnreset:hover{
+    background-color:rgb(13, 250, 13);
+    transform: scale(1.1);
+}
+
+.filters{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.create{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.btncreate{
+    border-radius: 60%;
+    padding: 20px;
+    background-color: beige;
+}
+
+.btncreate:hover{
+    background-color: rgb(13, 250, 13);
+    transform: scale(1.1);
+}
+

@@ -1,0 +1,82 @@
+.header{
+    background-image: url(https://img.freepik.com/foto-gratis/vegetales-varios-sobre-mesa-negra-espacio-mensaje_1220-614.jpg?w=996&t=st=1668780555~exp=1668781155~hmac=2d63c7097515bd3d481f724ae3b6e4af02d281bcee8089bd25b0be41ca0edd99);
+    background-size: cover;
+    position:fixed;
+    width: 100%;
+    align-items: center;
+    top:0px;
+    color:beige;
+    text-shadow: -3px -3px 3px #a19961, 3px -3px 3px #3a1c1f, -3px 3px 3px #784f32, 3px 3px 3px #784f32;
+}
+.detail{
+    margin-top: 110px;
+}
+
+.detail::after {
+    content: "";
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-madera-marron_53876-91618.jpg?w=996&t=st=1668782684~exp=1668783284~hmac=4e2ed7a29661f62e601416dede57bff9d28d329622395d2b2b0d118f298927d2);
+    background-size: 100% 100%;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;   
+  }
+
+.back{
+    position:fixed;
+    width: 200px;
+    right: 180px;
+    top: 18px
+}
+
+.btnback{
+    border-radius: 60%;
+    padding: 20px;
+    background-color: beige;
+}
+
+
+
+.btnback:hover{
+    background-color:darkgoldenrod;
+    transform: scale(1.1);
+}
+
+.imagenytexto{
+    margin-top: 220px;
+    display: flex;
+    justify-content:space-around;
+    margin-left: 30px;
+    margin-right:30px
+}
+
+.imagen{
+    width:500px;
+    height: 400px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.summary{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;
+    margin: 0
+}
+
+.div{
+    display:flex;
+    margin-right: 50px;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+.steps{
+    display: flex;
+    flex-direction:column;
+    align-items:stretch
+   
+}

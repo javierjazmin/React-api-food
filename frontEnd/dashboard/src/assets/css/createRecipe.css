@@ -1,0 +1,133 @@
+.header{
+    background-image: url('../images/fondo1.jpg');
+    background-size: cover;
+    position:fixed;
+    width: 100%;
+    align-items: center;
+    top:0px;
+    color:beige;
+    
+}
+.header h1{
+    font-size: 60px;
+    color: beige;
+    text-shadow: -3px -3px 3px #a19961, 3px -3px 3px #3a1c1f, -3px 3px 3px #784f32, 3px 3px 3px #784f32;
+}
+
+.back{
+    position:fixed;
+    width: 200px;
+    right: 180px;
+    top: 18px
+}
+
+.btnback{
+    border-radius: 10%;
+    padding: 20px;
+    background-color: beige;
+}
+
+.btnback:hover{
+    background-color:rgb(13, 250, 13);
+    transform: scale(1.1);
+}
+
+.form{
+    margin-top: 220px;
+}
+
+.form::after {
+    content: "";
+    background-color: gray;
+    background-size: 100% 100%;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;   
+  }
+
+.div{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputtext{
+    font-size: 25px;
+    font-weight: bold;
+   
+    
+}
+
+.input{
+    height: 25px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 6px;
+    /* margin-left: 6px */
+}
+
+.inputgrande{
+    height: 80px;
+    width: 700px;
+    border-radius: 10px;
+    margin-top: 6px;
+}
+
+.inputgrandetext{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.errors{
+    width: 170px;
+    font-weight: bold;
+    color: rgb(122, 44, 44);
+    margin-bottom: 8px;
+    margin-top:8px
+
+}
+
+.diets{
+    display:flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-weight:500;
+
+}
+
+.dietinfo{
+    margin: 10px;
+    font-weight: 500;
+
+}
+
+
+.btncreate{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: beige;
+    margin: 20px
+}
+
+.btncreate:hover{
+    background-color:rgb(13, 250, 13);
+    transform: scale(1.1);
+}
